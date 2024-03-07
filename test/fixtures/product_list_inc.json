@@ -1,0 +1,23 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "iPhone 9",
+      "price": 549,
+      "discountPercentage": 12.96,
+      "stock": 94,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/1/thumbnail.jpg"
+    },
+    {
+      "id": 2,
+      "title": "iPhone X",
+      "price": 899,
+      "discountPercentage": 17.94,
+      "stock": 34,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/2/thumbnail.jpg"
+    }
+  ],
+  "total": 2,
+  "skip": 0,
+  "limit": 2
+}

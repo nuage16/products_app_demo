@@ -12,22 +12,28 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
   flutter_bloc: ^8.1.4
+  bloc: ^8.1.3
   dio: ^5.4.1
   equatable: ^2.0.5
   fpdart: ^1.1.0
+  retrofit: ^4.1.0
+  get_it: ^7.6.7
+  carousel_slider: ^4.2.1
+
 
   cupertino_icons: ^1.0.2
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  bloc_test:
+  bloc_test: ^9.1.6
   integration_test:
     sdk: flutter
   mockito: ^5.4.4
   build_runner: ^2.4.8
+  retrofit_generator:
+
 
   flutter_lints: ^2.0.0
 
