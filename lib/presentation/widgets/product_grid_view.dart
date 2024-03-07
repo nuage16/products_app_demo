@@ -39,7 +39,12 @@ class _ProductGridViewState extends State<ProductGridView> {
 
   @override
   Widget build(BuildContext context) {
-    return CustomScrollView(controller: _scrollCtrl, slivers: <Widget>[
+    return CustomScrollView(
+        controller: _scrollCtrl, slivers: <Widget>[
+      SliverAppBar(
+        expandedHeight: MediaQuery.of(context).size.height * 0.12,
+       backgroundColor: Colors.transparent,
+      ),
       SliverGrid(
         gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
             maxCrossAxisExtent: 200,

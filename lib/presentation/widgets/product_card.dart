@@ -11,7 +11,7 @@ class ProductCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Card(
-      color: Colors.white,
+      color: Theme.of(context).cardColor,
       child: InkWell(
         borderRadius: BorderRadius.circular(10),
         onTap: () => onTap(),
@@ -45,7 +45,7 @@ class ProductCard extends StatelessWidget {
                   padding:
                       const EdgeInsets.symmetric(horizontal: 4, vertical: 2),
                   decoration: BoxDecoration(
-                      color: Theme.of(context).primaryColor,
+                      color: Colors.orange,
                       borderRadius: BorderRadius.circular(8)),
                   child: Text(
                     '${product.discountPercentage!.ceil()}%',

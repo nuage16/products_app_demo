@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:products_app_demo/presentation/bloc/product/product_bloc.dart';
 import 'package:products_app_demo/presentation/bloc/product_list/product_list_bloc.dart';
 import 'package:products_app_demo/presentation/pages/home_page.dart';
@@ -34,7 +35,8 @@ class MyApp extends StatelessWidget {
         title: 'Flutter Products Demo',
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
-          colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+          textTheme: GoogleFonts.poppinsTextTheme(),
+          colorScheme: ColorScheme.fromSeed(seedColor: Colors.teal),
           useMaterial3: true,
         ),
         home: const HomePage(),
